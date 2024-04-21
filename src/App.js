@@ -1,14 +1,14 @@
  
- import Home from './components/Home'
+ import Home from './components/Numbers'
  import MainAppBar from './components/MainAppBar'
  import RegConfig from './components/RegConfig';
- import './components/css/MainStyles.css'
+ import './css/MainStyles.css'
 
 function App() {
   return (
     <div className="mainStyle" > 
       <MainAppBar/>
-      <Home/>
+      {/* <Home/> */}
       <RegConfig/>
     </div>
   );

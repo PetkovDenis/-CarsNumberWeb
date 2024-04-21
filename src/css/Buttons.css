@@ -1,0 +1,36 @@
+.button {
+    display: block;
+    background: #cdd6d6;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.buttonMainPage {
+    display: block;
+    background: #7c7c7c;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(230, 221, 221);
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.buttonNumbers {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background: #7c7c7c;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(230, 221, 221);
+    font-weight: bold;
+    line-height: 25px;
+    
+}

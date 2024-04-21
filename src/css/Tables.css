@@ -1,0 +1,13 @@
+table {
+  
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 20%;
+  border-spacing: 30px ;
+
+  }
+
+.tableText{
+  font-size: 30px;
+}
