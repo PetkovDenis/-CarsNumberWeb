@@ -34,3 +34,15 @@
     line-height: 25px;
     
 }
+
+.buttonNumbers:hover{
+    background-color: rgb(99, 99, 95);
+}
+
+.buttonMainPage:hover{
+    background-color: rgb(99, 99, 95);
+}
+
+.button:hover{
+    background-color: rgb(99, 99, 95);
+}

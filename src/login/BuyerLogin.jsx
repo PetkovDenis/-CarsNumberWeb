@@ -1,6 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import "../css/App.css";
+import "../css/Buttons.css"
 
 function Login() {
     const {
@@ -25,12 +26,14 @@ function Login() {
         <>
             <p className="title">Вход в аккаунт</p>
 
-            <form className="App" onSubmit={handleSubmit(onSubmit)}>
+            {/* onSubmit={handleSubmit(onSubmit)} */}
+            <form className="App" noValidate autoComplete="off" >
+
                 <input placeholder="Рабочая почта" type="email" {...register("email", { required: true })} />
                 {errors.email && <span style={{ color: "red" }}>
                     *Email* is mandatory </span>}
                 <input placeholder="Пароль" type="password" {...register("password")} />
-                <input oc type={"submit"} style={{ backgroundColor: "#696969" }} />
+                <input class="button"  oc type={"submit"}   />
             </form>
             <a href="http://localhost:3000/logOrReg">Вернуться назад</a>   
 

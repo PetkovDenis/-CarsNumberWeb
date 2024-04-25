@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import "../css/App.css";
-
+import "../css/Buttons.css"
 function Login() {
     const {
         register,
@@ -30,7 +30,7 @@ function Login() {
                 {errors.email && <span style={{ color: "red" }}>
                     *Email* is mandatory </span>}
                 <input placeholder="Пароль" type="password" {...register("password")} />
-                <input oc type={"submit"} style={{ backgroundColor: "#696969" }} />
+                <input oc type={"submit"} class="button"  />
             </form>
             <a href="http://localhost:3000/logOrReg">Вернуться назад</a>   
 
